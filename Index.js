@@ -1,1 +1,2 @@
-console.log("testing");
+var vari = 'Nimnda';
+console.log(vari);
