@@ -1,4 +1,4 @@
-var vari = 'Nimnda';
+/*var vari = 'Nimnda';
 console.log(window.vari);
 
 function abc(){
@@ -6,4 +6,5 @@ function abc(){
     console.log(x);
 }
 
-abc()
+abc()*/
+
