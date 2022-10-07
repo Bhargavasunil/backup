@@ -1,2 +1,2 @@
 var vari = 'Nimnda';
-console.log(window.course);
+console.log(window.vari);
