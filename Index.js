@@ -5,3 +5,5 @@ function abc(){
     let x='Bhargava';
     console.log(x);
 }
+
+abc()
