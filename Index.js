@@ -7,4 +7,3 @@ function abc(){
 }
 
 abc()
-console.log(x);
