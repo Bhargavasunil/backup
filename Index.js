@@ -36,7 +36,7 @@ workspace = company;
 
 //modal window : nothing but alert . modal means user can't interact with the rest of the page.
 
-let age = prompt("how old are you",[100]);
+/*let age = prompt("how old are you",[100]);
 alert(`You are ${age} years old`); 
 
 let input = prompt("Who are you?",[""]);
@@ -52,4 +52,7 @@ alert(isBoss);
 alert(Number("123z"));
 
 let boole = true;
-alert(Number(boole));
+alert(Number(boole));*/
+let x=1;
+x=-x;
+alert(x);
