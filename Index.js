@@ -47,3 +47,9 @@ alert(`Fine!`);
 
 let isBoss = confirm("Are  you  Developer?");
 alert(isBoss);
+
+
+alert(Number("123z"));
+
+let boole = true;
+alert(Number(boole));
