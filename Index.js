@@ -70,3 +70,9 @@ console.log(obj);
   arr5.push('d','e');
   console.log(arr4);
   console.log(arr5)
+  //de-structuring 
+
+  let erarr = ['Thor','thunder']
+  let[name,power]=erarr;
+  console.log(name);
+  console.log(power);
