@@ -40,4 +40,33 @@ console.log(obj);
  let varString = "Avengers";
  let varStringList = [...varString];
  console.log(varStringList);
- 
+ //combining arrays with the help of spread operator
+  
+ let arr1  = ['data1','data2'];
+ let arr2  = ['data3','data4'];
+ let arr3 = [...arr1,...arr2];
+ console.log(arr3);
+
+ //combining objects
+
+ let obj1 ={name:'Teja',age:25,skills:'salesforce'}
+ let obj2 = {name:'Nagendra',age:29,Experience:4}
+ let obj3 = {...obj1,...obj2}
+ console.log(obj3);
+
+ //shallow copy
+
+  let arr10 = ['x','y','z'];
+  arr10.push(20);
+  console.log(arr10);               
+  var arr11 = arr10;
+  arr11.push('Nag');
+  console.log(arr10);
+  console.log(arr11);
+
+  let arr4 = ['a','b','c'];
+  let arr5 = [...arr4];
+  console.log(arr5);
+  arr5.push('d','e');
+  console.log(arr4);
+  console.log(arr5)
