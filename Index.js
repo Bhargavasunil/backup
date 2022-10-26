@@ -76,3 +76,11 @@ console.log(obj);
   let[name,power]=erarr;
   console.log(name);
   console.log(power);
+
+  let age = prompt('what is your age?',[""]);
+  let resvariable = age>18? true:false;
+  alert(resvariable);
+  
+  let empId = prompt('do you have your emp Id?','')
+  let res = empId == 'yes'?true:false;
+  alert(res);
