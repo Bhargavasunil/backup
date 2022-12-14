@@ -80,7 +80,7 @@ const animals = {
    let varResult=varArray.find(function(currentItem,index,array){
        return currentItem>2;
    })
-   console.log(varArray);
+   console.log('find'+varArray);
    console.log(varResult);
 
    let undef = varArray.find(function(currentItem,index,array){
